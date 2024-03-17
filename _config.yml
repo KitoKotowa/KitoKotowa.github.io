@@ -9,20 +9,20 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Saigon
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: KitoKotowa # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Prompting around and find out... ? # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  My little blog for random posts, and other stuff
 
 # Fill in the protocol & hostname for your site.
-# e.g. 'https://username.github.io', note that it does not end with a '/'.
+# e.g. 'https://KitoKotowa.github.io', note that it does not end with a '/'.
 url: ""
 
 github:
@@ -38,10 +38,10 @@ social:
   email: chaukiet220803@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/KitoKotowa # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/ChuTnKit1 # change to your twitter homepage
+    - https://github.com/KitoKotowa # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/exhaust.pearlton/
     # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
@@ -76,11 +76,11 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: ./assets/images/kirbynia.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: ./assets/images/preview.png # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -96,12 +96,12 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    repo: KitoKotowa/KitoKotowa.github.io # <gh-username>/<repo>
+    repo_id: 771968013
+    category: Comments
+    category_id: 
+    mapping: title # optional, default to 'pathname'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
